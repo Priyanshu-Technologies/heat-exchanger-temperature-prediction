@@ -1,0 +1,17 @@
+{
+  "model_type": "XGBoost",
+  "features": [
+    "hot_inlet_temperature_k_noisy",
+    "cold_inlet_mass_flow_kg_s_noisy",
+    "hot_outlet_pressure_pa_noisy",
+    "cold_outlet_pressure_pa_noisy",
+    "hot_outlet_mass_flow_kg_s_noisy",
+    "cold_outlet_mass_flow_kg_s_noisy",
+    "hot_outlet_temperature_k_noisy"
+  ],
+  "target": "hot_outlet_temperature_k",
+  "test_mae": 1.2923237166748047,
+  "test_r2": 0.8733931561337638,
+  "n_training_samples": 8000,
+  "n_test_samples": 2000
+}
